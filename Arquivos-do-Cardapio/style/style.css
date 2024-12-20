@@ -8,39 +8,47 @@ body {
     margin: auto 0 auto 0;
     font-family: 'Gotham', sans-serif;
     font-style: normal;
-    overflow-x: hidden;
-}
-header img{
-    height: 100px;
-    width: 100px;
-}
 
-.cardapio{
+}
+.especiais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardapio {
     text-align: center;
-    padding: 15px;
     background-image: url(../imagens/Background-black.jpeg);
 }
 
+.product-infos{
+    min-height: 250px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 15px;
+}
+
 .card {
+    align-items: center;
+    display: flex;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.473);
-    width: 300px;
     margin-top: 25px;
     border-radius: 5px;
 }
 
 .card-img {
-    width: 275px;
+    width: 250px;
 }
 
 .card-list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     column-gap: 15px;
-    flex-wrap: wrap;
     justify-content: center;
+    margin: 0 15vw 0 15vw;
 }
-
 
 nav a:hover {
     background-color: rgba(0, 0, 0, 0.473);
@@ -55,7 +63,7 @@ nav {
     background-position: center;
 }
 
-nav a{
+nav a {
     font-size: 1.2em;
     padding: 0 15px 0 15px;
     display: flex;
@@ -65,27 +73,56 @@ nav a{
     color: whitesmoke;
 }
 
-nav img{
+nav img {
     height: 100px;
     width: 100px;
 }
 
-main div.img {
-    display: flexbox;
-    height: 100px;
-    width: 100px;
-}
+@media only screen and (max-width: 450px) {
+    .card-img {
+        max-width: 100px;
+        max-height: 100px;
+    }
 
-main article {
-    text-align: left;
-}
+    .product-infos{
+        min-height: 100px;
+    }
 
-main article ul {
-    list-style: none;
+    .product-infos{
+        text-align: center;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card-list {
+        margin: 0;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-    nav{
+    nav {
         justify-content: center;
     }
-  }
+    .card-list {
+        margin: 0 3% 0 3%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .product-infos {
+        font-size: 12px;
+    }
+
+    .card-img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .product-infos{
+        min-height: 150px;
+    }
+
+    .card-list {
+        margin: 0 10vw 0 10vw;
+    }
+}
