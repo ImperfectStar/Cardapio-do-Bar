@@ -3,6 +3,8 @@
 body{
     background-color: black;
     background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     color: whitesmoke;
     font-family: "Delius Swash Caps", serif;
@@ -15,4 +17,7 @@ header img{
 nav a{
     text-decoration: none;
     color: whitesmoke;
+}
+main ul{
+    list-style: none;
 }
