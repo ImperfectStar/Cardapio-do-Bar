@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
 body{
     background-color: black;
     background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     color: whitesmoke;
     margin: auto 0 auto 0;
+    font-family: "Delius Swash Caps", serif;
+    font-style: normal;
 }
 header img{
     height: 100px;
     width: 100px;
 }
 .teste{
+    text-align: center;
     margin-top: 15px;
     padding: 15px;
     background-image: url(../imagens/Background-black.jpeg);
@@ -29,4 +36,27 @@ header img{
     column-gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav a:hover{
+    color: lightblue;
+}
+main{
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+main div.img{
+    display: flexbox;
+    height: 100px;
+    width: 100px;
+}
+main article{
+    text-align: left;
+}
+main article ul{
+    list-style: none;
 }
