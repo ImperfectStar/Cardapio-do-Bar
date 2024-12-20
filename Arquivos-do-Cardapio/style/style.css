@@ -15,8 +15,12 @@ header img{
     width: 100px;
 }
 nav a{
+    display: inline-block;
     text-decoration: none;
     color: whitesmoke;
+}
+nav a:hover{
+    color: lightblue;
 }
 main ul{
     list-style: none;
