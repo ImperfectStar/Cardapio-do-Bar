@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
 body{
     background-color: black;
     background-image: url();
     text-align: center;
     color: whitesmoke;
-    font-family: ;
+    font-family: "Delius Swash Caps", serif;
+    font-style: normal;
 }
 header img{
     height: 100px;
