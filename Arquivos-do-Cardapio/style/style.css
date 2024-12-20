@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    background-image: url();
+    text-align: center;
+    color: whitesmoke;
+}
+header img{
+    height: 100px;
+    width: 100px;
+}
