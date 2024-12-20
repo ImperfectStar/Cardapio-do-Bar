@@ -37,13 +37,33 @@ header img{
     flex-wrap: wrap;
     justify-content: center;
 }
+.btn-nav{
+    border: none;
+    height: 100%;
+    background-color: #111;
+    color: whitesmoke;
+}
+.btn-nav:hover{
+    background-color: rgba(0, 0, 0, 0.473);
+    cursor: pointer;
+}
+.logo-nav{
+    margin-left: 15px;
+}
+nav{
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    background-color: #111;
+    background-position: center;
+    align-items: center;
+    gap: 15px;
+}
 nav a{
     display: inline-block;
     text-decoration: none;
     color: whitesmoke;
-}
-nav a:hover{
-    color: lightblue;
+    font-size: 1.5em;
 }
 main{
     border: 1px solid black;
