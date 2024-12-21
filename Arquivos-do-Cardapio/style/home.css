@@ -1,0 +1,53 @@
+body{
+    background: black url(../imagens/Background-black.jpeg) no-repeat fixed center center ;
+    color: whitesmoke;
+    text-align: center;
+    margin: auto 0 auto 0;
+    font-family: 'Gotham', sans-serif;
+
+}
+nav {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    background-color: #111;
+    background-position: center;
+}
+
+nav a {
+    font-size: 1.2em;
+    padding: 0 15px 0 15px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.473);
+    cursor: pointer;
+}
+nav img {
+    height: 100px;
+    width: 100px;
+}
+.card{
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.473);
+    margin-top: 25px;
+    border-radius: 5px;
+}
+.card-img{
+    width: 250px;
+    display: inline-block;
+}
+.card-list{
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+    justify-content: center;
+    margin: 0 15vw 0 15vw;
+    
+}
