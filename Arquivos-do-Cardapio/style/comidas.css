@@ -10,18 +10,20 @@ body {
     font-style: normal;
 
 }
-.especiais{
+
+.pratos {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .cardapio {
     text-align: center;
     background-image: url(../imagens/Background-black.jpeg);
 }
 
-.product-infos{
-    min-height: 250px;
+.product-infos {
+    min-height: 175px;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
@@ -40,13 +42,12 @@ body {
 
 .card-img {
     width: 250px;
+    height: 185px;
 }
 
 .card-list {
-    display: flex;
-    flex-direction: column;
+    width: 60vw;
     column-gap: 15px;
-    justify-content: center;
     margin: 0 15vw 0 15vw;
 }
 
@@ -78,22 +79,25 @@ nav img {
     width: 100px;
 }
 
+
 @media only screen and (max-width: 450px) {
     .card-img {
         max-width: 100px;
         max-height: 100px;
     }
 
-    .product-infos{
+    .product-infos {
         min-height: 100px;
     }
 
-    .product-infos{
+    .product-infos {
         text-align: center;
     }
-    .card{
+
+    .card {
         flex-direction: column;
     }
+
     .card-list {
         margin: 0;
     }
@@ -103,6 +107,7 @@ nav img {
     nav {
         justify-content: center;
     }
+
     .card-list {
         margin: 0 3% 0 3%;
     }
@@ -118,7 +123,7 @@ nav img {
         max-height: 150px;
     }
 
-    .product-infos{
+    .product-infos {
         min-height: 150px;
     }
 
