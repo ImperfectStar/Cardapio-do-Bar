@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background-image: url(../imagens/background.jpg);
+    background-image: url(../imagens/Background-black.jpeg);
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -130,4 +130,7 @@ nav img {
     .card-list {
         margin: 0 10vw 0 10vw;
     }
+}
+@media print{
+    
 }
